@@ -1,0 +1,118 @@
+
+/*
+	root element for the scrollable.
+	when scrolling occurs this element stays still.
+*/
+.scrollable {
+
+	/* required settings */
+	position:relative;
+	overflow:hidden;
+
+
+	/* custom decorations */
+	border:1px solid #ccc;
+	background:url(/img/global/gradient/h300.png) repeat-x;
+}
+
+/*
+	root element for scrollable items. Must be absolutely positioned
+	and it should have a extremely large width to accomodate scrollable items.
+	it's enough that you set the width and height for the root element and
+	not for this element.
+*/
+.scrollable .items {
+	/* this cannot be too large */
+	width:20000em;
+	position:absolute;
+	clear:both;
+	margin: 10px 0 10px 0;
+}
+
+.items .in_div {
+	float:left;
+	/* width:780px; */
+}
+
+/* single scrollable item */
+.scrollable img {
+	/* float:left; */
+	margin-left:10px;
+	margin-right:10px;
+	background-color:#fff;
+	padding:2px;
+	border:1px solid #ccc;
+	/*
+	width:100px;
+	height:75px; */
+	
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+/* active item */
+.scrollable .active {
+	border:2px solid #000;
+	position:relative;
+	cursor:default;
+}
+.over_div{
+	float:left;
+	
+}
+.br_r{
+	border-left: 1px solid #BF6162;
+}
+.post_cont{
+	/* float:right; */
+	/* width:200px; */
+	padding-left:10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+.post_wimg{
+	padding-left:10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+.p_title{
+font-size: 14px;
+font-weight: bold;
+border-bottom:1px solid #fcfcfc;
+}
+.p_meta {
+font-size: 10px;
+}
+.p_content{
+font-size: 12px;
+}
+.clearfix{
+	clear:both;
+}
+.fl_l{
+	float:left;
+}
+.fl_r{
+	float:right;
+}
+
+.mar_10{
+	margin:10px;
+}
+.prev{
+	float: right;
+	padding-right: 5px;
+	border-right: 1px solid #bf6162;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	cursor:pointer;
+}
+#actions{
+	width: 100px;
+	float:right;
+	margin-right:40px;
+	}
+.next {
+	float:right;
+	cursor:pointer;
+}	

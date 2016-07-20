@@ -1,0 +1,5 @@
+[27-Jun-2016 14:28:35 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/labibaca/public_html/wp-content/themes/labibacademy/header.php on line 40
+[27-Jun-2016 14:28:37 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/labibaca/public_html/wp-content/themes/labibacademy/header.php on line 40
+[27-Jun-2016 14:31:00 UTC] PHP Fatal error:  Call to undefined function blog_info() in /home/labibaca/public_html/wp-content/themes/labibacademy/header.php on line 40
+[27-Jun-2016 14:31:04 UTC] PHP Fatal error:  Call to undefined function blog_info() in /home/labibaca/public_html/wp-content/themes/labibacademy/header.php on line 40
+[27-Jun-2016 14:31:16 UTC] PHP Fatal error:  Call to undefined function blog_info() in /home/labibaca/public_html/wp-content/themes/labibacademy/header.php on line 40
